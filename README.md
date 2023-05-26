@@ -30,7 +30,7 @@ transaction."
 ## Objective:
 The objective of this task is to extract information from Form 4 filings and store the information in a database. The database will be used to analyze insider trading activity. For our purposes, a database can consist of one or more flat files (e.g., in CSV format) that can be loaded into one or more Pandas dataframes.
 
-The task template repository provides 100 Form 4 examples in the `data` directory. In real life, there are many thousands of these files and they are updated daily. We therefore need to automate the process of extracting information from these files and storing the information in a database. We would like for you to prototype a solution.
+The task template repository provides 100 Form 4 examples in the `data` directory. These files are text files, in a hybrid HTML/XML format (there is an HTML header, and an XML body) In real life, there are many thousands of these files and they are updated daily. We therefore need to automate the process of extracting information from these files and storing the information in a database. We would like for you to prototype a solution. Extract as much structured information as you can from the reports.
 
 Our preference is for you to use Python code for this task. You may use Jupyter notebooks for exploration and to illustrate your solution. You may use any Python libraries you wish. You may also use any other tools you wish, but please be prepared to explain your choices.
 
