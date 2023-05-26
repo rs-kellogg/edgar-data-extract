@@ -35,6 +35,6 @@ The task template repository provides 100 Form 4 examples in the `data` director
 Our preference is for you to use Python code for this task. You may use Jupyter notebooks for exploration and to illustrate your solution. You may use any Python libraries you wish. You may also use any other tools you wish, but please be prepared to explain your choices.
 
 ## Deliverables:
-We would like a command line interface that accepts a directory as input containing Form 3 files. Output should be one or more flat files (e.g. in CSV format) that extracts the relevant information from the Form 3 files. The output should be suitable for loading into a database, or into one or more Pandas dataframes.
+We would like a command line interface that accepts a directory as input containing Form 4 files. Output should be one or more flat files (e.g. in CSV format) that extracts the relevant information from the Form 4 files. The output should be suitable for loading into a database, or into one or more Pandas dataframes.
 
 Please use this git repository as a template for your solution. You may fork this repository and submit a pull request, or you may create a new repository and send us a link. Please include a README.md file that describes your solution and how to run it. Source code may go in the `edgar` directory. Test code should go in the `test` directory. You may add additional files and directories as needed. 
